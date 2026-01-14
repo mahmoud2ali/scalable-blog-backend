@@ -1,7 +1,7 @@
 ## Chat Schema
 
-[ChatRoom] 1---* [Message]
-[User] *---* [ChatRoom]
+`[ChatRoom] 1---* [Message]`
+`[User] *---* [ChatRoom]`
 
 - User: id, username
 - ChatRoom: id, name, participants(list of Users)
